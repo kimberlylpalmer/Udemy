@@ -1,17 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Resume</title>
-</head>
-<body>
-    <div>Contact Information</div>
-    <div>Summary</div>
-    <div>Projects/Portfolio</div>
-    <div>Work Experience</div>
-    <div>Education</div>
-    <div>Skills</div>
-    <div>Awards/Certifications/Achievements</div>   
-</body>
+    <style>
+      .container {
+        text-align: left;
+        margin-left: 300px;
+        margin-right: 300px;
+        line-height: 15px;
+      }
+      .centered {
+        display: inline-block;
+        text-align: center;
+      }
+      .left {
+        display: inline-block;
+        text-align: left;
+      }
+      hr {
+        width: auto;
+        height: 5px;
+        border-width: 5px;
+        color: black;
+        background-color: purple;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      h1,
+      h2,
+      h3, h4 {
+        font-family: "Fahkwang", serif;
+    }
+    h1 {
+          font-size: 35px;
+      }
+    h2 {
+          font-size: 30px;
+          margin-top: 50px;
+      }
+    h3 {
+          font-size: 25px;
+      }
+    h4 {
+          font-size: 20px;
+      }
+
+      p, li {
+        font-family: "Barlow", sans-serif;
+        font-size: 20px;
+        line-height: 25px;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Glass+Antiqua&display=swap"
+      rel="stylesheet" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Kaushan+Script&family=Tangerine:wght@400;700&family=Yellowtail&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <h1>Kimberly Palmer</h1>
+        <h3>
+          Camarillo, CA | 408.234.8037 |
+          <a href="mailto:kimberly.l.palmer@gmail.com"
+            >Kimberly.L.Palmer@gmail.com</a
+          >
+        </h3>
+        <h3>
+          <a href="http://linkedin.com/in/kimberly-l-palmer">LinkedIn</a> |
+          <a href="https://github.com/kimberlylpalmer">Github</a> |
+          <a href="https://medium.com/@kimberlylpalmer">Blog</a> |
+          <a href="http://www.kimberlylpalmer.com/">Website/Portfolio</a>
+        </h3>
+      </div>
+      <div>
+        <h2 style="text-align: center;">Software Engineer</h2>
+        <hr />
+        <p>
+            Full Stack Developer with a rich blend of Python, Flask, React, and
+            JavaScript programming skills, I bring over 15 years of leadership in
+            project and program management. My expertise lies in technical
+            proficiency with strong collaboration and problem-solving skills.
+            Known for driving growth and fostering key relationships, I excel in
+            using technology to enhance and meet complex organizational goals. My
+            passion lies in applying this unique combination of tech skills and
+            experience to innovate and lead in challenging software engineering
+            roles.
+        </p>
+    </div>
+    <div>
+        <h2 style="text-align: center;">Technical Skills</h2>
+        <hr />
+        <p style="text-align: center;">Python with Flask, SQL, JavaScript, React, HTML, CSS, Canva, Figma, WordPress, Elementor</p>
+    </div>
+    <div>
+        <h2 style="text-align: center;">Technical Projects</h2>
+        <hr />
+        <h4>What's For Dinner - <a href="https://github.com/kimberlylpalmer/whats-for-dinner.git">Github</a> | <a href="https://vimeo.com/920647591?share=copy">Demo Video</a> | <a href="https://whatsfordinner-oz84.onrender.com/">Website</a></h4>
+        <p>What’s For Dinner is a versatile full-stack recipe database application empowering users to save, explore, and filter recipes from a community of contributors.
+            <ul>
+                <li>Implemented a user interface utilizing React frontend and CSS for styling, enhancing visual aesthetics and ensuring responsive design.
+                </li>
+                <li>Established the database structure by leveraging Python Flask backend, ensuring efficient data management and seamless integration with the application. 
+                </li>
+                <li>Employed Marshmallow for serialization, enabling the design of a structured data storage schema and facilitating seamless data manipulation and retrieval within the application.
+                </li>
+                <li>Utilized Coolers.co to generate a color palette from the home page image, facilitating cohesive and visually appealing design elements.</li>
+            </ul>
+        </p>
+        <h4>Trip Planner - <a href="https://github.com/kimberlylpalmer/TripPlanner.git">Github</a></h4>
+        <p>Trip Planner is a user-friendly platform enabling account creation, login, trip management including creation, updating, and deletion, and provides a seamless experience from start to finish with a simple log-out option.
+            <ul>
+                <li>Implemented frontend using React, HTML, and CSS to enhance user interface and ensure responsive design.
+                </li>
+                <li>Utilized Python to develop the backend, ensuring efficient server-side processing and seamless integration with other systems. 
+                </li>
+                <li>Implemented SQLAlchemy for database operations, enabling efficient data storage, retrieval, and management within the application.
+                </li>
+                <li>Implemented password hashing with bcrypt to enhance password security on the server, safeguarding user credentials from potential breaches.</li>
+            </ul>
+        </p>
+        <h4>Library Management - <a href="https://github.com/kimberlylpalmer/LibraryManagement.git">Github</a></h4>
+        <p>Library Management System is a database designed to manage a library's books, members, and borrowing records. 
+            <ul>
+                <li>Constructed a Python-based Command Line Interface (CLI) application.</li>
+                <li>Utilized SQLAlchemy for efficient database operations, data storage, and management.</li>
+                <li>Designed a user-friendly interface featuring command-line menus to facilitate smooth interaction with the library's data, ensuring an intuitive user experience.</li>
+            </ul>
+        </p>
+        <h4>Slay The Day - <a href="https://github.com/kimberlylpalmer/slaytheday.git">Github</a></h4>
+        <p>Slay The Day is a simple personal calendar application that allows users to save and manage their events.
+            <ul>
+                <li>Engineered a responsive user interface using JavaScript and React for seamless interaction and optimal user experience.
+                </li>
+                <li>Implemented CSS for stylish and visually appealing presentation of the user interface.</li>
+            </ul>
+        </p>
+        <h4>Motivational-Engine - <a href="https://github.com/kimberlylpalmer/motivational-engine.git">Github</a> | <a href="https://kimberlylpalmer.github.io/motivational-engine/">Website</a></h4>
+        <p>Motivational Engine is a unique web application designed to boost productivity and uplift spirits through the power of positive affirmations.
+            <ul>
+                <li>Implemented the project using JavaScript to leverage its robust features and functionalities, ensuring efficient development and performance.
+                </li>
+                <li>Implemented HTML and CSS to create a calming but fun presentation of the user interface.
+                </li>
+                <li>Employed two API libraries to retrieve motivational quotes for integration into the project.
+                </li>
+            </ul>
+        </p>
+    </div>
+        <div>
+            <h2 style="text-align: center;">Work Experience</h2>
+            <hr />
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center">
+                <p><strong>KLP Media Solutions</strong></p>
+                <p>Camarillo, CA</p>
+              </div>
+              <div style="display: flex; justify-content: space-between; align-items: center">
+                <p>Founder</p>
+                <p>January 2023 - Present</p>
+              </div>
+            </div>
+        </div>
+      <div>Education</div>
+      <div>Awards/Certifications/Achievements</div>
+    </div>
+  </body>
 </html>
