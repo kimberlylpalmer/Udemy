@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Resume</title>
+    <title>Kimberly L Palmer Resume</title>
     <style>
       .container {
         text-align: left;
@@ -52,6 +52,22 @@
         font-size: 20px;
         line-height: 25px;
       }
+      ul.diamond-bullet {
+        list-style: none;
+        padding-left: 20px;
+      }
+      ul.diamond-bullet li {
+        position: relative;
+      }
+      ul.diamond-bullet li::before {
+        content: '◈';
+        color: blue;
+        font-size: 20px;
+        position: absolute;
+        left: -25px;
+        top: 2px;
+      }
+      
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -64,8 +80,8 @@
       href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Glass+Antiqua&display=swap"
       rel="stylesheet" />
       <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Kaushan+Script&family=Tangerine:wght@400;700&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Kaushan+Script&family=Tangerine:wght@400;700&family=Yellowtail&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -109,7 +125,7 @@
         <hr />
         <h4>What's For Dinner - <a href="https://github.com/kimberlylpalmer/whats-for-dinner.git">Github</a> | <a href="https://vimeo.com/920647591?share=copy">Demo Video</a> | <a href="https://whatsfordinner-oz84.onrender.com/">Website</a></h4>
         <p>What’s For Dinner is a versatile full-stack recipe database application empowering users to save, explore, and filter recipes from a community of contributors.
-            <ul>
+            <ul class="diamond-bullet">
                 <li>Implemented a user interface utilizing React frontend and CSS for styling, enhancing visual aesthetics and ensuring responsive design.
                 </li>
                 <li>Established the database structure by leveraging Python Flask backend, ensuring efficient data management and seamless integration with the application. 
@@ -121,7 +137,7 @@
         </p>
         <h4>Trip Planner - <a href="https://github.com/kimberlylpalmer/TripPlanner.git">Github</a></h4>
         <p>Trip Planner is a user-friendly platform enabling account creation, login, trip management including creation, updating, and deletion, and provides a seamless experience from start to finish with a simple log-out option.
-            <ul>
+            <ul class="diamond-bullet">
                 <li>Implemented frontend using React, HTML, and CSS to enhance user interface and ensure responsive design.
                 </li>
                 <li>Utilized Python to develop the backend, ensuring efficient server-side processing and seamless integration with other systems. 
@@ -133,7 +149,7 @@
         </p>
         <h4>Library Management - <a href="https://github.com/kimberlylpalmer/LibraryManagement.git">Github</a></h4>
         <p>Library Management System is a database designed to manage a library's books, members, and borrowing records. 
-            <ul>
+            <ul class="diamond-bullet">
                 <li>Constructed a Python-based Command Line Interface (CLI) application.</li>
                 <li>Utilized SQLAlchemy for efficient database operations, data storage, and management.</li>
                 <li>Designed a user-friendly interface featuring command-line menus to facilitate smooth interaction with the library's data, ensuring an intuitive user experience.</li>
@@ -141,7 +157,7 @@
         </p>
         <h4>Slay The Day - <a href="https://github.com/kimberlylpalmer/slaytheday.git">Github</a></h4>
         <p>Slay The Day is a simple personal calendar application that allows users to save and manage their events.
-            <ul>
+            <ul class="diamond-bullet">
                 <li>Engineered a responsive user interface using JavaScript and React for seamless interaction and optimal user experience.
                 </li>
                 <li>Implemented CSS for stylish and visually appealing presentation of the user interface.</li>
@@ -149,7 +165,7 @@
         </p>
         <h4>Motivational-Engine - <a href="https://github.com/kimberlylpalmer/motivational-engine.git">Github</a> | <a href="https://kimberlylpalmer.github.io/motivational-engine/">Website</a></h4>
         <p>Motivational Engine is a unique web application designed to boost productivity and uplift spirits through the power of positive affirmations.
-            <ul>
+            <ul class="diamond-bullet">
                 <li>Implemented the project using JavaScript to leverage its robust features and functionalities, ensuring efficient development and performance.
                 </li>
                 <li>Implemented HTML and CSS to create a calming but fun presentation of the user interface.
@@ -162,19 +178,145 @@
         <div>
             <h2 style="text-align: center;">Work Experience</h2>
             <hr />
-            <div>
-              <div style="display: flex; justify-content: space-between; align-items: center">
-                <p><strong>KLP Media Solutions</strong></p>
-                <p>Camarillo, CA</p>
+            <div style="margin-top: 20px;">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <p style="margin: 0; font-family: 'Fahkwang'"><strong>KLP Media Solutions</strong></p>
+                <p style="margin: 0;">Camarillo, CA</p>
               </div>
               <div style="display: flex; justify-content: space-between; align-items: center">
-                <p>Founder</p>
-                <p>January 2023 - Present</p>
+                <p style="margin: 0;">Founder</p>
+                <p style="margin: 0;">January 2023 - Present</p>
+              </div>
+              <div>
+                <ul class="diamond-bullet">
+                  <li>Create and execute website design projects for small businesses, focusing on enhancing online presence and driving customer engagement.</li>
+                    <li>
+                      Develop and implement strategic social media campaigns to increase brand awareness and drive traffic.
+                    </li>
+                    <li>
+                      Provide branding and digital design services tailored to the unique needs of each client.
+                    </li>
+                    <li>
+                      Utilize Canva for intuitive design and combine with Wordpress, HTML, CSS, and JavaScript for website development.
+                    </li>
+                    <li>
+                      Collaborate closely with clients to understand their objectives and deliver solutions that align with their vision.
+                    </li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <p style="margin: 0; font-family: 'Fahkwang'"><strong>Irwin Naturals Emergence</strong></p>
+                <p style="margin: 0;">Los Angeles, CA</p>
+              </div>
+              <div style="display: flex; justify-content: space-between; align-items: center">
+                <p style="margin: 0;">Senior Program Manager</p>
+                <p style="margin: 0;">July 2022 - September 2023</p>
+              </div>
+              <div>
+                <ul class="diamond-bullet">
+                  <li>Spearheaded the design and execution of advanced system dashboards using Google and Microsoft tools, significantly enhancing the tracking of key departmental metrics resulting in 35% increase in patient engagement and 50% improvement in call center efficiency. 
+                  </li>
+                    <li>
+                      Developed Policies and Protocols to improve service offering in each clinic ensuring that patient care was uniform from site to site which allowed patients to have the treatment from multiple locations.
+                    </li>
+                    <li>
+                      Created a project management template to roll out and establish new medical facilities. This provided the ability to open a site in less than 3 months and have it be profitable within 9 months.
+                    </li>
+                    <li>
+                      As a program manager, I coached a hybrid team of 8 professionals from different departments in the strategic introduction of innovative tools and procedures for both new and existing operational sites.
+                    </li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <p style="margin: 0; font-family: 'Fahkwang'"><strong>American Society of Ketamine Physicians</strong></p>
+                <p style="margin: 0;">Ventura, CA</p>
+              </div>
+              <div style="display: flex; justify-content: space-between; align-items: center">
+                <p style="margin: 0;">Director of Operations</p>
+                <p style="margin: 0;">February 2019 - March 2022</p>
+              </div>
+              <div>
+                <ul class="diamond-bullet">
+                  <li>Expanded the organization's membership to encompass over 400 medical providers by establishing a membership initiative designed to accommodate a wide array of mental health practitioners.</li>
+                    <li>
+                      Introduced a strategic membership renewal initiative, resulting in a remarkable 250% surge in organizational revenues. This two-pronged strategy not only broadened our reach but also heightened member involvement, showcasing a clear link between inventive program execution and substantial financial advancement.
+                    </li>
+                    <li>
+                      Introduced a strategic membership renewal initiative, resulting in a remarkable 250% surge in organizational revenues. This two-pronged strategy not only broadened our reach but also heightened member involvement, showcasing a clear link between inventive program execution and substantial financial advancement.
+                    </li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <p style="margin: 0; font-family: 'Fahkwang'"><strong>CCI, Inc</strong></p>
+                <p style="margin: 0;">Los Angeles, CA</p>
+              </div>
+              <div style="display: flex; justify-content: space-between; align-items: center">
+                <p style="margin: 0;">Senior Program Manager</p>
+                <p style="margin: 0;">January 2010 - February 2022</p>
+              </div>
+              <div>
+                <ul class="diamond-bullet">
+                  <li>Oversaw all aspects of planning and execution of 12 events per year.</li>
+                    <li>
+                      Led internal teams using different management strategies to keep staff engaged and stress levels reduced.
+                    </li>
+                    <li>
+                      Instituted comprehensive training protocols for new staff, fostering professional growth and operational efficiency shortening training time from 2 years to 6 months.
+                    </li>
+                    <li>
+                      Managed and reported on project budgets ranging from $40,000 to $120,000, ensuring meticulous tracking of expenditures. Optimized budget allocations for maximum efficiency and impact, and provided detailed financial forecasts to stakeholders, facilitating informed strategic decisions.
+                    </li>
+                    <li>
+                      Cultivated strategic relationships with C-suite executives in the healthcare sector, enhancing corporate partnerships and strategic alliances.
+                    </li>
+                </ul>
               </div>
             </div>
         </div>
-      <div>Education</div>
-      <div>Awards/Certifications/Achievements</div>
+      <div>
+        <h2 style="text-align: center;">Education</h2>
+            <hr />
+            <div style="margin-top: 20px;">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <p style="margin: 0; font-family: 'Fahkwang'"><strong>Flatiron School</strong></p>
+                <p style="margin: 0;">Camarillo, CA</p>
+              </div>
+              <div style="display: flex; justify-content: space-between; align-items: center">
+                <p style="margin: 0;">Full Stack Web Development, Python with Flask and JavaScript program</p>
+                <p style="margin: 0;">February 2024</p>
+              </div>
+            </div>
+            <br>
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <p style="margin: 0; font-family: 'Fahkwang'"><strong>CalTech</strong></p>
+                <p style="margin: 0;">Woodland Hills, CA</p>
+              </div>
+              <div style="display: flex; justify-content: space-between; align-items: center">
+                <p style="margin: 0;">Project Management Certification Program</p>
+                <p style="margin: 0;">August 2020</p>
+              </div>
+            </div>
+            <br>
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <p style="margin: 0; font-family: 'Fahkwang'"><strong>Touro University</strong></p>
+                <p style="margin: 0;">San Lorenzo, CA</p>
+              </div>
+              <div style="display: flex; justify-content: space-between; align-items: center">
+                <p style="margin: 0;">Business Administration and Management</p>
+                <p style="margin: 0;">June 2018</p>
+              </div>
+            </div>
+            <br>
+      </div>
+
     </div>
   </body>
 </html>
